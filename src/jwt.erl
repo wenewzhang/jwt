@@ -160,6 +160,7 @@ algorithm_to_crypto(<<"HS256">>) -> {hmac, sha256};
 algorithm_to_crypto(<<"HS384">>) -> {hmac, sha384};
 algorithm_to_crypto(<<"HS512">>) -> {hmac, sha512};
 algorithm_to_crypto(<<"RS256">>) -> {rsa,  sha256};
+algorithm_to_crypto(<<"RS512">>) -> {rsa,  sha512};
 algorithm_to_crypto(_)           -> undefined.
 
 epoch() -> erlang:system_time(seconds).
