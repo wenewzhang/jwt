@@ -17,7 +17,7 @@ If you use rebar (supports both 2 and 3 versions) or mix (Elixir):
 {deps, [{jwt}]}.
 
 % or for rebar2
-{deps, [{jwt, ".*", {git, "https://github.com/artemeff/jwt", {tag, "0.1.0"}}}]}
+{deps, [{jwt, ".*", {git, "https://github.com/wenewzhang/jwt", {branch, master}}}]}
 ```
 
 ```elixir
